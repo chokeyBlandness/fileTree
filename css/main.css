@@ -1,0 +1,39 @@
+
+	.node {  
+        cursor: pointer;  
+      }  
+        
+      .node circle {  
+        fill: #fff;  
+        stroke: steelblue;  
+        stroke-width: 3px;  
+      }  
+        
+      .node text {  
+        font: 10px sans-serif;  
+      }  
+        
+      .link {  
+        fill: none;  
+        stroke: #ccc;  
+        stroke-width: 3px;  
+      }  
+      .treeSVG{
+          width: 48%;
+          height: 600px;
+          float: right;
+          margin-top: 10px;
+          margin-right: 10px;
+          background: #E0E0E0;
+      }
+      .treeSVG svg{
+            width: 100%;
+            height: 100%;
+      }
+      .treeTable{
+        width: 30%;
+        height: max-content;
+        margin-top: 40px;
+        margin-left: 10px;
+        float: left
+      }
